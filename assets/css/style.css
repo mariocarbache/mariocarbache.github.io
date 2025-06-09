@@ -683,6 +683,13 @@ p {
   margin-bottom: 30px;
 }
 
+#portfolio .portfolio-item img {
+  width: 100%;
+  aspect-ratio: 16 / 9;  /* Keeps a 16:9 rectangular shape */
+  object-fit: cover;
+  border-radius: 5%;
+}
+
 #portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
